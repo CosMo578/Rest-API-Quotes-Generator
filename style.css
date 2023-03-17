@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sono&family=Source+Sans+Pro:wght@300&display=swap');
+
+body {
+  all: unset;
+  box-sizing: border-box;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  height: 100vh;
+  background: #444444;
+  font-family: 'Sono', sans-serif;
+}
+
+.box {
+  width: 260px;
+  padding: 17px;
+  border-radius: 20px;
+  background: rgb(253, 142, 67);
+  background: linear-gradient(90deg, rgba(253, 142, 67, 1) 0%, rgba(255, 73, 0, 1) 50%, rgba(255, 87, 25, 1) 94%);
+  text-align: center;
+}
+
+.box h2 {
+  margin: 17px 0;
+}
+
+.box small {
+  font-size: 16px;
+}
+
+.box blockquote {
+  font-size: 19px;
+  font-weight: 300;
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.box cite {
+  font-family: 'Pacifico', cursive;
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.box button {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 13px;
+  background: #FFAD00;
+  font-family: 'Source Sans Pro', sans-serif;
+}
